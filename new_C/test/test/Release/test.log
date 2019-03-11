@@ -1,0 +1,14 @@
+﻿Build started 2018/11/5 22:38:04.
+     1>Project "D:\coding\new C程序\test\test\test.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\coding\new C程序\test\Release\".
+       InitializeBuildStatus:
+         Creating "Release\test.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\MinGW\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TC /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /analyze- /errorReport:prompt test.c /clr:nostdlib 
+     1>cl : Command line error D8045: cannot compile C file 'test.c' with the /clr option
+     1>Done Building Project "D:\coding\new C程序\test\test\test.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68

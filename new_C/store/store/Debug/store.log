@@ -1,0 +1,141 @@
+﻿Build started 2018/11/6 14:04:16.
+     1>Project "D:\coding\new C程序\store\store\store.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\store.unsuccessfulbuild".
+       ClCompile:
+         D:\MinGW\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt store.c
+         store.c
+     1>d:\coding\new c程序\store\store\store.c(19): error C2086: 'char m[20]' : redefinition
+                 d:\coding\new c程序\store\store\store.c(19) : see declaration of 'm'
+     1>d:\coding\new c程序\store\store\store.c(33): warning C4133: 'function' : incompatible types - from 'char [12]' to 'FILE *'
+     1>d:\coding\new c程序\store\store\store.c(33): warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int'
+     1>d:\coding\new c程序\store\store\store.c(33): warning C4024: 'fscanf' : different types for formal and actual parameter 2
+     1>d:\coding\new c程序\store\store\store.c(33): error C2059: syntax error : ')'
+     1>d:\coding\new c程序\store\store\store.c(43): error C2275: 'elepointer' : illegal use of this type as an expression
+                 d:\coding\new c程序\store\store\store.c(13) : see declaration of 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(43): error C2146: syntax error : missing ';' before identifier 'p'
+     1>d:\coding\new c程序\store\store\store.c(43): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(44): error C2143: syntax error : missing ';' before 'type'
+     1>d:\coding\new c程序\store\store\store.c(46): error C2065: 'inum' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(48): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(48): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(48): error C2065: 'inum' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(48): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(50): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(50): warning C4047: '=' : 'int' differs in levels of indirection from 'Electric *'
+     1>d:\coding\new c程序\store\store\store.c(51): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(52): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(52): error C2223: left of '->name' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(57): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(58): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(58): error C2223: left of '->brand' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(63): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(64): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(64): error C2223: left of '->price' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(65): error C2065: 'i' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(66): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(66): error C2223: left of '->num' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(67): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(67): warning C4047: '=' : 'Electric *' differs in levels of indirection from 'int'
+     1>d:\coding\new c程序\store\store\store.c(68): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(68): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(71): error C2143: syntax error : missing ';' before 'type'
+     1>d:\coding\new c程序\store\store\store.c(74): error C2275: 'elepointer' : illegal use of this type as an expression
+                 d:\coding\new c程序\store\store\store.c(13) : see declaration of 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(74): error C2146: syntax error : missing ';' before identifier 'p'
+     1>d:\coding\new c程序\store\store\store.c(76): error C2065: 'f' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(76): warning C4047: '=' : 'int' differs in levels of indirection from 'FILE *'
+     1>d:\coding\new c程序\store\store\store.c(76): warning C4047: '==' : 'int' differs in levels of indirection from 'void *'
+     1>d:\coding\new c程序\store\store\store.c(83): error C2065: 'f' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(83): warning C4047: 'function' : 'FILE *' differs in levels of indirection from 'int'
+     1>d:\coding\new c程序\store\store\store.c(83): warning C4024: 'fwrite' : different types for formal and actual parameter 4
+     1>d:\coding\new c程序\store\store\store.c(88): error C2065: 'f' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(88): warning C4047: 'function' : 'FILE *' differs in levels of indirection from 'int'
+     1>d:\coding\new c程序\store\store\store.c(88): warning C4024: 'fclose' : different types for formal and actual parameter 1
+     1>d:\coding\new c程序\store\store\store.c(96): error C2275: 'elepointer' : illegal use of this type as an expression
+                 d:\coding\new c程序\store\store\store.c(13) : see declaration of 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(96): error C2146: syntax error : missing ';' before identifier 'p'
+     1>d:\coding\new c程序\store\store\store.c(96): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(96): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(96): error C2065: 'q' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(97): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(97): warning C4047: '=' : 'int' differs in levels of indirection from 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(98): error C2065: 'q' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(98): warning C4047: '=' : 'int' differs in levels of indirection from 'Electric *'
+     1>d:\coding\new c程序\store\store\store.c(99): error C2065: 'q' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(99): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>d:\coding\new c程序\store\store\store.c(101): error C2065: 'q' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(101): error C2065: 'q' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(101): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(112): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(112): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(112): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(114): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(114): warning C4047: '=' : 'int' differs in levels of indirection from 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(116): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(116): error C2223: left of '->name' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(117): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(117): error C2223: left of '->name' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(117): error C2198: 'strlen' : too few arguments for call
+     1>d:\coding\new c程序\store\store\store.c(119): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(119): error C2223: left of '->name' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(122): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(122): error C2223: left of '->brand' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(123): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(123): error C2223: left of '->brand' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(123): error C2198: 'strlen' : too few arguments for call
+     1>d:\coding\new c程序\store\store\store.c(125): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(125): error C2223: left of '->brand' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(128): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(128): error C2223: left of '->price' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(130): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(130): error C2223: left of '->num' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(131): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(131): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(131): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(131): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(132): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(132): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(132): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(141): error C2275: 'elepointer' : illegal use of this type as an expression
+                 d:\coding\new c程序\store\store\store.c(13) : see declaration of 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(141): error C2146: syntax error : missing ';' before identifier 'p'
+     1>d:\coding\new c程序\store\store\store.c(141): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(141): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(142): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(142): warning C4047: '=' : 'int' differs in levels of indirection from 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(143): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(143): warning C4047: '=' : 'int' differs in levels of indirection from 'Electric *'
+     1>d:\coding\new c程序\store\store\store.c(144): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(144): warning C4047: '!=' : 'int' differs in levels of indirection from 'void *'
+     1>d:\coding\new c程序\store\store\store.c(146): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(146): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(146): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(157): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(157): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(157): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(159): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(159): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(159): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(160): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(160): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(160): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(160): error C2223: left of '->next' must point to struct/union
+     1>d:\coding\new c程序\store\store\store.c(161): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(161): warning C4022: 'free' : pointer mismatch for actual parameter 1
+     1>d:\coding\new c程序\store\store\store.c(169): error C2275: 'elepointer' : illegal use of this type as an expression
+                 d:\coding\new c程序\store\store\store.c(13) : see declaration of 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(169): error C2146: syntax error : missing ';' before identifier 'p'
+     1>d:\coding\new c程序\store\store\store.c(169): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(169): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(170): error C2065: 'p' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(170): warning C4047: '=' : 'int' differs in levels of indirection from 'elepointer'
+     1>d:\coding\new c程序\store\store\store.c(171): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(171): warning C4047: '=' : 'int' differs in levels of indirection from 'Electric *'
+     1>d:\coding\new c程序\store\store\store.c(172): error C2065: 's' : undeclared identifier
+     1>d:\coding\new c程序\store\store\store.c(172): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "D:\coding\new C程序\store\store\store.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
